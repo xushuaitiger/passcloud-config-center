@@ -5,6 +5,7 @@ spring:
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/paascloud_uac?characterEncoding=utf8&useSSL=false&serverTimezone=GMT
     username: root
     password: root
