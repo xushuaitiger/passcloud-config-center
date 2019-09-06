@@ -7,7 +7,7 @@ spring:
   cache:
     cache-names: mdc-cache
   datasource:
-    url: jdbc:mysql://localhost:3306:3306/paascloud_mdc?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/paascloud_mdc?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
     username: root
     password: root
 
