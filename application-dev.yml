@@ -97,7 +97,7 @@ hystrix:
           enabled: true
         isolation:
           thread:
-            timeoutInMilliseconds: 20000
+            timeoutInMilliseconds: 80000
 
 info:
   软件著作权: paascloud快速搭建企业级分布式微服务平台
