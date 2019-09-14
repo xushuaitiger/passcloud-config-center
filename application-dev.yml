@@ -87,7 +87,7 @@ ribbon:
   MaxAutoRetriesNextServer: 2
   OkToRetryOnAllOperations: false
   ConnectTimeout: 60000
-  ReadTimeout: 8000
+  ReadTimeout: 20000
 
 hystrix:
   command:
@@ -97,7 +97,7 @@ hystrix:
           enabled: true
         isolation:
           thread:
-            timeoutInMilliseconds: 80000
+            timeoutInMilliseconds: 20000
 
 info:
   软件著作权: paascloud快速搭建企业级分布式微服务平台
