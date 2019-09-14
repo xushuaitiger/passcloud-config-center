@@ -78,7 +78,7 @@ feign:
     config:
       default:
         connectTimeout: 50000
-        readTimeout: 50000
+        readTimeout: 5000
 
 ribbon:
   eager-load:
