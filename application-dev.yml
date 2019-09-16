@@ -78,7 +78,7 @@ feign:
     config:
       default:
         connectTimeout: 50000
-        readTimeout: 50000
+        readTimeout: 5000
 
 ribbon:
   eager-load:
@@ -97,12 +97,8 @@ hystrix:
           enabled: true
         isolation:
           thread:
-            timeoutInMilliseconds: 80000
+            timeoutInMilliseconds: 900000
 
-info:
-  软件著作权: paascloud快速搭建企业级分布式微服务平台
-  著作登记号: 2018SR320076
-  关于我们: http://paascloud.net
 
 paascloud:
   auth:
